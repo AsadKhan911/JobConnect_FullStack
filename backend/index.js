@@ -22,7 +22,7 @@ app.use(cookieParser())
 const _dirname = path.resolve()
 
 const corsOptions = {
-    origin:'http://localhost:5173',
+    origin:'https://jobconnect-fullstack.onrender.com',
     credentials:true
 }
 app.use(cors(corsOptions))
