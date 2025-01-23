@@ -1,0 +1,38 @@
+What is CORS?
+
+CORS Analogy:
+
+Imagine you have a private library (your server) that only allows members from your own neighborhood to borrow books. If someone from a different neighborhood (another website) wants to borrow a book, they need special permission.
+
+CORS is like a security guard at the library who checks if the request to borrow a book is coming from an allowed neighborhood. If it is, the guard lets the person in; if not, the request is denied.
+
+Simple Explanation of CORS
+What CORS Does:
+
+Security: CORS is a security feature in web browsers that controls how web pages make requests to servers that are on different domains (origins). For example, if your website is on example.com and it wants to get data from api.example.com, CORS determines if this request is allowed or blocked.
+
+Purpose: It helps protect users from malicious websites trying to access data or services that they shouldn’t be able to.
+
+In Our Code:
+
+const corsOptions = {
+    origin: 'http://localhost:5137',
+    credentials: true
+}
+app.use(cors(corsOptions))
+
+origin: 'http://localhost:5137': This means your server is set to accept requests only from http://localhost:5137. Requests from other places will be blocked.
+
+credentials: true: This allows the requests from http://localhost:5137 to include sensitive information like cookies or authentication headers.
+
+MODELS EXPLAINATION:
+
+company: { //This approach is used to create a relationship between two different documents or collections. SEARCH WHILE MAKING ANOTHER PROJECT
+            type: mongoose.Schema.Types.ObjectId,
+            ref: 'Company'
+        }
+
+Why we use this approach?
+
+We use this approach because ham ek he file me company k schema k lia jo jo chiaye hoga uska ek model bana k rkhlengy , or jab kbhi hamein need hogi to ham is treqe se dusre model me usko require krlengy {type: mongoose.Schema.Types.ObjectId , ref: 'Company'} , No need to write same key value pairs in every schema where we have to define company key , islia ek dfa bana k rkhlo or use br br use kro with the help of this mongoose functionality.
+
