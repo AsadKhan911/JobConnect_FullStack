@@ -1,4 +1,4 @@
-# MERN JobConnect
+# MERN JobConnect (RESPONSIVE)
 
 A full-stack, real-time job posting web application built on the MERN stack (MongoDB, Express, React, Node.js). This platform connects **students** and **recruiters**, providing an efficient way for job seekers to apply for jobs and for recruiters to manage applications dynamically.
 
