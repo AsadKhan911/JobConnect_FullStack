@@ -76,7 +76,7 @@ A full-stack, real-time job posting web application built on the MERN stack (Mon
 
 This full-stack **MERN JobConnect** project has been deployed on **Render**, a cloud platform that supports web applications, databases, and file storage. You can access the live version of the application here:
 
-🔗 [Live Demo on Render](https://jobconnect-fullstack.onrender.com/)
+🔗 [Live Demo on Render](https://jobconnect-fullstack.onrender.com/){:target="_blank"}
 
 ---
 
