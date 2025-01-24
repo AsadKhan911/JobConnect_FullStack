@@ -43,24 +43,32 @@ A full-stack, real-time job portal application built on the MERN stack (MongoDB,
 . ├── backend │ ├── controllers │ ├── models │ ├── middleware │ ├── routes │ ├── server.js │ └── config ├── frontend │ ├── src │ │ ├── components │ │ ├── pages │ │ ├── hooks │ │ ├── store │ │ └── App.jsx └── README.md
 
 
+
 ---
 
 ## 📸 Screenshots
 
-_Add screenshots of your application here!_  
-Example:  
+### Login/Signup Screenshots
 
-- **Homepage**  
-![Homepage Screenshot](#)  
+<img src="./screenshots/login.png" width="400" /> <img src="./screenshots/signup.png" heigh="200" width="400" /> 
 
-- **Job Application Page**  
-![Job Application Screenshot](#)  
+### Student Section Screenshots
+
+<img src="./screenshots/studentHome.png" width="300" /> <img src="./screenshots/studentHome1.png" width="300" /> <img src="./screenshots/filterJobs.png" width="300" /> <img src="./screenshots/filterJobs1.png" width="300" /> <img src="./screenshots/jobDetails.png" width="300" /> <img src="./screenshots/appliedJobs.png" width="300" />
+
+### Recruiter Section Screenshots
+These are the screenshots showing the Recruiter section (displayed in a single row):
+
+<img src="./screenshots/companySetup.png" width="300" /> <img src="./screenshots/registeredCompanies.png" width="300px" /> <img src="./screenshots/postedJobs.png" width="300" /> 
+<img src="./screenshots/postJob.png" width="300" /> <img src="./screenshots/editJob.png" width="300px" /> <img src="./screenshots/applicants.png" width="300" /> 
+
+
 
 ---
 
-## 🌐 View Live Demo  
+## View Live Demo  👇
 
-🔗 [Live Demo](#)  
+<a href="https://jobconnect-fullstack.onrender.com/" target="_blank">🔗 Live Demo</a>
 
 ---
 
