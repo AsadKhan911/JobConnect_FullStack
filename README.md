@@ -1,6 +1,6 @@
-# MERN Job Portal
+# MERN JobConnect
 
-A full-stack, real-time job portal application built on the MERN stack (MongoDB, Express, React, Node.js). This platform connects **students** and **recruiters**, providing an efficient way for job seekers to apply for jobs and for recruiters to manage applications dynamically.
+A full-stack, real-time job posting web application built on the MERN stack (MongoDB, Express, React, Node.js). This platform connects **students** and **recruiters**, providing an efficient way for job seekers to apply for jobs and for recruiters to manage applications dynamically.
 
 ---
 
@@ -95,9 +95,8 @@ These are the screenshots showing the Recruiter section (displayed in a single r
 - MongoDB set up locally or using a cloud service (e.g., MongoDB Atlas)
 - A Cloudinary account for file storage
 
-### Steps to Run Locally:
-1. **Clone the Repository**  
+ **Clone the Repository** 
+ 
    ```bash
-   git clone https://github.com/your-username/mern-job-portal.git
-   cd mern-job-portal
+   git clone https://github.com/AsadKhan911/JobConnect_FullStack.git
 
